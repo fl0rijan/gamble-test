@@ -1,0 +1,24 @@
+table {
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+  cursor: pointer;
+}
+
+td.selected {
+  background-color: green;
+}
+td.danger{
+  background-color: green;
+}
+button.started{
+  display: none;
+}
+td.danger{
+  background-color: red;
+}
